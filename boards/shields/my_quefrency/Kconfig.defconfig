@@ -1,4 +1,4 @@
-if SHIELD_QUEFRENCY_DONGLE
+if SHIELD_MY_QUEFRENCY_DONGLE
 
 # Max 16 characters in keyboard name
 config ZMK_KEYBOARD_NAME
@@ -22,5 +22,22 @@ config BT_MAX_CONN
 # Set this to the same number as BT_MAX_CONN
 config BT_MAX_PAIRED
     default 6
+
+endif
+
+if SHIELD_MY_QUEFRENCY_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Quefrency"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_MY_QUEFRENCY_LEFT || SHIELD_MY_QUEFRENCY_RIGHT
+
+config ZMK_SPLIT
+    default y
 
 endif
