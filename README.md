@@ -1,3 +1,5 @@
+![Hero image of quefrency with prospector dongle](images/quefrency-hero.jpg)
+
 # Quefrency layout
 
 A ZMK[^zmk] configuration for keebio Quefrency[^quefrency] rev1 in no macro 65%
