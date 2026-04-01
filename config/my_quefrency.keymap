@@ -63,7 +63,7 @@
             bindings = <
     &trans    &none     &none     &none     &none   &none   &none /**/ &kp KP_N7  &kp KP_N8 &kp KP_N9 &kp KP_SLASH &kp KP_LPAR &kp KP_RPAR &none &trans &trans
     &trans    &none     &none     &none     &none   &none         /**/ &kp KP_NUM &kp KP_N4 &kp KP_N5 &kp KP_N6    &kp KP_ASTERISK &none   &none &none  &trans
-    &trans    &none     &none     &none     &none   &none         /**/ &none      &kp KP_N1 &kp KP_N2 &kp KP_N3    &kp KP_MINUS    &none   &trans       &trans
+    &tog 2    &none     &none     &none     &none   &none         /**/ &none      &kp KP_N1 &kp KP_N2 &kp KP_N3    &kp KP_MINUS    &none   &trans       &trans
     &trans    &none     &none     &none     &none   &none         /**/ &none      &kp KP_N0 &kp KP_DOT &kp KP_ENTER &kp KP_PLUS    &trans  &trans       &trans
     &trans    &trans       &trans       &trans       &trans       /**/ &trans               &trans    &trans       &trans          &trans  &trans       &trans
             >;
