@@ -1,12 +1,12 @@
 include:
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: my_quefrency_left
     artifact-name: quefrency_left_peripheral
     cmake-args: -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: my_quefrency_left
     artifact-name: quefrency_left
-  - board: nice_nano_v2
+  - board: nice_nano
     shield: my_quefrency_right
     artifact-name: quefrency_right
   - board: seeeduino_xiao_ble
